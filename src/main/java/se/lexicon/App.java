@@ -1,17 +1,20 @@
 package se.lexicon;
 
+import java.util.Scanner;
+
 /**
  * Hello world!
  */
 public class App {
     public static void main(String[] args) {
+        System.out.println("-----------Exercise number 1 -------------");
+
         System.out.println("Hello World!");
         System.out.println("Hello");
         System.out.println("Liljana!");
 
+        System.out.println("-----------Exercise number 2 -------------");
         // if els if statement
-
-
         int year = 2800;
         if (year % 400 == 0) {
             System.out.println("Leap year");
@@ -21,7 +24,8 @@ public class App {
             System.out.println("Leap year");
 
         }
-        {
+
+        System.out.println("-----------Exercise number 3 -------------");
 
           // arithmetic operations
             int num1 = 45;
@@ -47,22 +51,22 @@ public class App {
            System.out.println(num7+ "-" + num8 + "=" +(num7-num8));
 
 
+        System.out.println("-----------Exercise number 4 -------------");
+        //average of three numbers
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the first number: ");
+        double n1 = scanner.nextDouble();
+        System.out.println("Enter the second number: ");
+        double n2 = scanner.nextDouble();
+        System.out.println("Enter the third number: ");
+        double n3 = scanner.nextDouble();
+
+        double average = (n1 + n2 + n3 )/3;
+        System.out.println("Average of three numbers is: "+ average);
 
 
-
-
-
-
-
-
-
-
-
-
-
-        }
-
-
+        System.out.println("-----------Exercise number 5 -------------");
 
     }
 

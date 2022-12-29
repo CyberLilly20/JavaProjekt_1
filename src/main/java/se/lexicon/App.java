@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("-----------Exercise number 1 -------------");
+       /* System.out.println("-----------Exercise number 1 -------------");
 
         System.out.println("Hello World!");
         System.out.println("Hello");
@@ -66,7 +66,28 @@ public class App {
         System.out.println("Average of three numbers is: "+ average);
 
 
-        System.out.println("-----------Exercise number 5 -------------");
+        System.out.println("-----------Exercise number 5 -------------");*/
+
+
+
+        System.out.println("-----------Exercise number 6 -------------");
+        // sum/multiplication/division and subtraction
+
+        System.out.println(" Enter two numbers to know the result!");
+        System.out.println("Available operations: sum/multiplication/division and subtraction ");
+        Scanner scan = new Scanner(System.in);
+        System.out.println(" Enter the first number: ");
+        int number1 = scan.nextInt();
+        System.out.println(" Enter thr second number: ");
+        int number2 = scan.nextInt();
+        int sum2 = number1 + number2;
+        int multi = number1 * number2;
+        int divis = number1 / number2;
+        int sub = number1 + number2;
+
+        System.out.printf("Sum = %d\nMultiplication = %d\nDivision = %d\nSubtraction = %d", sum2, multi, divis, sub);
+
+
 
     }
 

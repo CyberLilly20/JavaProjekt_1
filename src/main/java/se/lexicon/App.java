@@ -66,7 +66,7 @@ public class App {
         System.out.println("Average of three numbers is: "+ average);
 
 
-        System.out.println("-----------Exercise number 5 -------------");*/
+        System.out.println("-----------Exercise number 5 -------------");
 
 
 
@@ -85,8 +85,19 @@ public class App {
         int divis = number1 / number2;
         int sub = number1 + number2;
 
-        System.out.printf("Sum = %d\nMultiplication = %d\nDivision = %d\nSubtraction = %d", sum2, multi, divis, sub);
+        System.out.printf("Sum = %d\nMultiplication = %d\nDivision = %d\nSubtraction = %d", sum2, multi, divis, sub);*/
 
+        System.out.println("-----------Exercise number 7 -------------");
+        //converts seconds to hours, minutes and seconds
+
+        Scanner sec = new Scanner(System.in);
+        System.out.println("Enter seconds:");
+        int seconds = sec.nextInt();
+        int s = seconds % 60;
+        int h = seconds / 60;
+        int m = h % 60;
+        h = h / 60;
+        System.out.println(h +":"+ m + ":" + s);
 
 
     }
